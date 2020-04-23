@@ -51,7 +51,7 @@ def mess(message):
 	if final_message == "":
 		date = location[0]['last_updated'].split("T")
 		time = date[1].split(".")
-		final_message = f"<u>Mamlakat bo'yicha malumotlar:</u>\nRasmiy kanalimiz: @instagram_tv_video\n" \
+		final_message = f"<u>Mamlakat bo'yicha malumotlar:</u>\nRasmiy kanalimiz: @video_mp3lar_musiqa_fotolar\n" \
 				f"Oxirgi yangilanish: {date[0]} {time[0]}\nOxirgi malumotlar:\n<b>" \
 				f"Kasallanganlar: </b>{location[0]['latest']['confirmed']:,}\n<b>Vafot etganlar: </b>" \
 				f"{location[0]['latest']['deaths']:,}"
